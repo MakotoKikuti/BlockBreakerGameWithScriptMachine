@@ -307,11 +307,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95067212}
   m_CullTransparentMesh: 1
---- !u!82 &373412726 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 373412726, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-  m_PrefabInstance: {fileID: 909950875}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &505971766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,30 +1180,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8748841830624407498, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"selectBtnSe","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"startBtnSe","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"openOptionSe","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ballBoundSe","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bgmSlider","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"seSlider","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bgm","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Audio.AudioMixer,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Se","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Audio.AudioMixer,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 373412726}
     - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
@@ -1217,14 +1188,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
       objectReference: {fileID: 1188116745}
-    - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: _data._objectReferences.Array.data[6]
-      value: 
-      objectReference: {fileID: 24100000, guid: 50fd03af676b78b4487e89ee4bb95145, type: 2}
-    - target: {fileID: 8748841832030338796, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
-      propertyPath: _data._objectReferences.Array.data[7]
-      value: 
-      objectReference: {fileID: 24100000, guid: d11c53e10603ecb46bf8cfe03c01340b, type: 2}
     - target: {fileID: 8748841832030338798, guid: b83db483fdbe61041a8fafb24ba0412b, type: 3}
       propertyPath: m_RootOrder
       value: 11
